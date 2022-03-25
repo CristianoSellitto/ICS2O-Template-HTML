@@ -2,7 +2,7 @@
 // ICS2O-Unit0-00-HTML
 // Date 2022
 
-// 'use strict'
+'use strict'
 /**
  * Alerts "Hello, World!"
  */
