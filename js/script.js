@@ -4,6 +4,15 @@
 
 'use strict'
 /**
+ * Check service worker.
+ */
+if (navigator.serviceWorker) {
+  navigator.serviceWorker.register("/ICS2O-PWA-Test/sw.js", {
+    scope: "/ICS2O-PWA-Test/",
+  })
+}
+
+/**
  * Alerts "Hello, World!"
  */
 function onButtonClick() {
