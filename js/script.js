@@ -7,8 +7,8 @@
  * Check service worker.
  */
 if (navigator.serviceWorker) {
-  navigator.serviceWorker.register("/<RESPITORY>/sw.js", {
-    scope: "/<RESPITORY>/",
+  navigator.serviceWorker.register("/<REPOSITORY>/sw.js", {
+    scope: "/<REPOSITORY>/",
   })
 }
 
